@@ -28,7 +28,7 @@ export function Cards({ project }) {
         <div className="flex items-center justify-between pt-3 border-t border-gray-700">
           <span className="text-xs text-gray-500">Nível: {dif}</span>
           <a
-            href={`https://github.com/Pedro-Pratina/DWS-SegundoSemestre-2025/projects/${project.id}`}
+            href={`https://github.com/Pedro-Pratina/DWS-SegundoSemestre-2025/blob/main/src/projects/${project.id}.jsx`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-gray-400 hover:text-blue-400 opacity-0 group-hover:opacity-100 transition-all duration-200 font-medium"
